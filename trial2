@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenny Johannesson - Designer</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+        }
+        header {
+            background-color: #f5f5f5;
+            padding: 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 1rem 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-top: 2rem;
+        }
+        .projects, .about, .contact {
+            margin-bottom: 3rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jenny Johannesson</h1>
+        <p>Designer</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2 class="section-title">About Me</h2>
+            <p>Hello! I'm Jenny Johannesson, a passionate designer. I love creating innovative and user-friendly designs. With a strong background in design, I bring a unique perspective to every project I work on.</p>
+        </section>
+        <section id="projects" class="projects">
+            <h2 class="section-title">Projects</h2>
+            <p>Here are some of my recent projects:</p>
+            <ul>
+                <li><strong>Project 1:</strong> Description of project 1.</li>
+                <li><strong>Project 2:</strong> Description of project 2.</li>
+                <li><strong>Project 3:</strong> Description of project 3.</li>
+            </ul>
+        </section>
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contact</h2>
+            <p>If you'd like to get in touch, please reach out via email at <a href="mailto:jenny@example.com">jenny@example.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Jenny Johannesson. All rights reserved.</p>
+    </footer>
+</body>
+</html>
